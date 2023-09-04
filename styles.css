@@ -1,6 +1,19 @@
 .sections {
  flex-direction: column;
- border: 5px solid red;
+ border: 20px solid red;
 
 
+}
+
+.one{
+flex-direction: row;
+
+}
+
+.two{
+flex-direction: row;
+}
+
+.three{
+    background-color: aliceblue;
 }
