@@ -1,19 +1,31 @@
 .sections {
  flex-direction: column;
- border: 20px solid red;
-
-
+ padding:30px ;
+ margin-bottom: 10px;
 }
 
 .one{
-flex-direction: row;
+    flex-direction: row;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid red;
+}
+
+.one div{
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid red;
+}
+
+.working{
+    height: auto;
+    width: 500px;
 
 }
 
-.two{
-flex-direction: row;
-}
-
-.three{
-    background-color: aliceblue;
+.images{
+    height: auto;
+    width: 500px;
+    border-radius: 25px;
+    border: 2px solid skyblue;
 }
